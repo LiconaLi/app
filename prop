@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <style>
+        /* Estilo de la barra de navegación */
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #343a40;
+            padding: 10px 20px;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+        
+        .navbar a:hover {
+            background-color: #495057;
+            border-radius: 5px;
+        }
+        
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .cart-icon {
+            cursor: pointer;
+        }
+        
+        .cart-icon img {
+            width: 30px;
+            height: 30px;
+        }
+        /* Estilo del contenido principal */
+        
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .main-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .login-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        
+        .login-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="logo"><a href="#">Tienda de Ropa</a></div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Hombre</a></li>
+            <li><a href="#">Mujer</a></li>
+            <li><a href="#">Niños</a></li>
+            <li><a href="#">Accesorios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="cart-icon">
+            <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart.png" alt="Carrito"></a>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <h1>Bienvenidos a Nuestra Tienda de Ropa</h1>
+        <p>Explora nuestra colección de moda para todas las edades y estilos.</p>
+
+        <!-- Imagen Principal -->
+        <img src="https://i.ytimg.com/vi/8qkD6-pdy34/maxresdefault.jpg" alt="Imagen Principal de Tienda de Ropa" class="main-image">
+
+        <!-- Botón de Inicio de Sesión -->
+        <a href="INICIO DE SESION.html" class="login-button">Iniciar Sesión</a>
+    </div>
+</body>
+
+</html>
